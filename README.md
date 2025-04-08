@@ -1,31 +1,31 @@
-# String Reversal Program
+# Metin Ters Çevirme Programı
 
-This Python program takes a string input from the user and outputs all the characters of the string in reverse order.
+Bu Python programı, kullanıcıdan bir metin (string) girdisi alır ve bu metindeki karakterleri ters sırayla çıktılar.
 
-## Running the Program
+## Programı Çalıştırma
 
-To run the program, ensure that Python version 3.6 or higher is installed on your computer.
+Programı çalıştırmak için bilgisayarınızda Python 3.6 veya daha yeni bir sürümünün yüklü olduğundan emin olun.
 
-1. Download the project files to your computer.
-2. Open the terminal or command line.
-3. Navigate to the directory containing the program files.
-4. Run the program using the command:
+1. Proje dosyalarını bilgisayarınıza indirin.
+2. Terminali ya da komut satırını açın.
+3. Program dosyalarının bulunduğu klasöre gidin.
+4. Aşağıdaki komutu kullanarak programı çalıştırın:
 
 ```bash
 python string_reverser.py
 ```
 
-## Using the Program
+## Programı Kullanma
 
-After launching the program, you will be prompted to enter a string to reverse. Input the desired string and press Enter. The program will output the reversed string.
+Program başlatıldıktan sonra, ters çevirmek istediğiniz metni girmeniz istenecek. İstediğiniz metni girin ve Enter tuşuna basın. Program, ters çevrilmiş metni ekrana yazdıracaktır.
 
-## Example of Program Execution
+## Programın Çalışmasına Bir Örnek
 
 ```bash
-Enter a string to reverse: Hello world!
-Reversed string: !dlrow olleH
+Ters çevirmek istediğiniz metni girin: Merhaba dünya!
+Ters çevrilmiş metin: !aynüd abahreM
 ```
 
-## Author
+## Yazar
 
 Kodland
