@@ -3,14 +3,14 @@
 import pytest
 from reverse_string.string_reverser import reverse_string
 
-# Testing the reverse_string function with a normal string.
+# reverse_string fonksiyonunun normal bir metinle doğru çalışıp çalışmadığını test eder.
 def test_reverse_string_normal():
-    assert reverse_string("hello") == "olleh", "Expected the string 'hello' to be reversed to 'olleh'"
+    assert reverse_string("hello") == "olleh", "Beklenen sonuç: 'hello' metninin 'olleh' olarak ters çevrilmesi"
 
-# Checking the correctness of the reverse_string function when the string contains spaces.
+# reverse_string fonksiyonunun boşluk içeren metinlerde doğru çalışıp çalışmadığını kontrol eder.
 def test_reverse_string_with_spaces():
-    assert reverse_string("hello world") == "dlrow olleh", "Expected the string 'hello world' to be reversed to 'dlrow olleh'"
+    assert reverse_string("hello world") == "dlrow olleh", "Beklenen sonuç: 'hello world' metninin 'dlrow olleh' olarak ters çevrilmesi"
 
-# It's important to ensure that the reverse_string function correctly handles an empty string without causing errors.
+# reverse_string fonksiyonunun boş bir metni hatasız şekilde işleyip işlemediğini kontrol eder.
 def test_reverse_string_empty():
-    assert reverse_string("") == "", "Expected an empty string to be reversed to an empty string"
+    assert reverse_string("") == "", "Beklenen sonuç: Boş bir metnin ters çevrildiğinde yine boş olması"
